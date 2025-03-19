@@ -106,7 +106,7 @@
       </h4>
       <p class="tiret"></p>
     </div>
-    <div id="grille">
+    <div class="grille"> 
       @foreach($proprietes as $propriete)
       <div class="grille_items">
         <img src="./storage/{{$propriete->image_path}}" alt="photo" />

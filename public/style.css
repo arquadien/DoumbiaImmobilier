@@ -264,12 +264,13 @@ a:hover {
 
 .partie {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     margin-bottom: 10rem;
     margin: 0 200px 100px 200px;
 }
 
-.partie1, .partie2 {
+.partie1,
+.partie2 {
     margin: 12px;
 }
 .partie2 p,
@@ -361,17 +362,18 @@ b {
     letter-spacing: -2px;
 }
 
-#recommandation  p{
-   font-size: 18px;
-   margin-bottom: 6rem;
+#recommandation p {
+    font-size: 18px;
+    margin-bottom: 6rem;
 }
 
-.avis p{
+.avis p {
     font-size: 18px;
     margin-bottom: 0;
 }
 
-.avis h6, span{
+.avis h6,
+span {
     font-size: 17px;
     margin: 0;
 }
@@ -409,7 +411,8 @@ b {
     transition: 2s;
 }
 
-.graph-image, .overlay-image {
+.graph-image,
+.overlay-image {
     width: 100%;
     height: auto;
 }
@@ -421,7 +424,7 @@ b {
 .overlay-image {
     position: absolute;
     bottom: -20px;
-   right: -40px;
+    right: -40px;
     width: 62%;
     z-index: 3;
     height: auto;
@@ -430,14 +433,13 @@ b {
 
 .image-wrapper:hover .overlay-image {
     opacity: 0;
-
 }
 
-.image-wrapper:hover{
-        position: relative;
-        width: 90%;
-        height: 100%; 
-        transition: 2s;
+.image-wrapper:hover {
+    position: relative;
+    width: 90%;
+    height: 100%;
+    transition: 2s;
 }
 
 .apropos-card .text-section {
@@ -486,61 +488,7 @@ b {
   padding: 120px 0 60px;
 }*/
 
-
-#secend_card {
-    height: auto;
-    width: 100%;
-    padding: 8rem 0px 06rem 0px;
-    background-color: #f8f6f6;
-}
-
-#grille {
-    display: grid;
-    height: auto;
-    width: 100%;
-    display: flex;
-    padding: 60px 0px;
-    /*grid-template-columns: repeat(auto-fill, 280px);*/
-    justify-content: space-evenly;
-    gap: 1rem;
-    flex-wrap: wrap;
-    margin-bottom: 40px;
-}
-
-.grille_items {
-    margin-top: 2rem;
-    min-height: 340px;
-    height: auto;
-    width: 420px;
-    background-color: #eee;
-    border-radius: 0.5rem;
-    /*border-right: 1px solid black;*/
-    /*border-bottom: 0.5px solid black;*/
-    box-shadow: 2px 4px 2px 4px rgb(185, 181, 181);
-    overflow: hidden;
-    padding: 4px;
-}
-
-#grille h3 {
-    color: rgb(37, 118, 248);
-    font-weight: bold;
-    font-size: 20px;
-    margin: 10px;
-}
-
-#grille p {
-    color: rgb(6, 6, 6);
-    font-size: 18px;
-    margin: 10px;
-}
-
-#grille span {
-    color: rgb(0, 0, 253);
-    font-weight: bolder;
-    font-size: 22px;
-    margin: 16px;
-}
-/* footer*/
+/* ============================================== footer ===================================k*/
 
 footer {
     min-height: 30vh;
@@ -588,7 +536,8 @@ footer {
     text-align: center;
 }
 
-/*------------ Catalogue------------*/
+/*============================================= Catalogue ===========================================*/
+
 #section-catalogue {
     padding: 110px 4px 20px 4px;
 }
@@ -598,6 +547,7 @@ footer {
     font-size: 34px;
     text-transform: uppercase;
     margin-bottom: 16px;
+    margin-top: 110px;
 }
 
 #section-catalogue .intro_p {
@@ -606,14 +556,14 @@ footer {
     margin-bottom: 20px;
 }
 
-#section-catalogue #grille {
+#section-catalogue .grille {
     display: grid;
     height: auto;
     width: 100%;
     display: flex;
     padding: 0 60px 60px 60px;
     /*grid-template-columns: repeat(auto-fill, 280px);*/
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
     gap: 1rem;
     flex-wrap: wrap;
     margin-bottom: 40px;
@@ -633,25 +583,84 @@ footer {
     padding: 4px;
 }
 
-#section-catalogue #grille img {
+#section-catalogue .grille img {
     width: 430px;
     height: 310px;
 }
 
-#section-catalogue #grille h3 {
+#section-catalogue .grille h3 {
     color: rgb(37, 118, 248);
     font-weight: bold;
     font-size: 20px;
     margin: 10px;
 }
 
-#section-catalogue #grille p {
+#section-catalogue .grille p {
     color: rgb(6, 6, 6);
     font-size: 18px;
     margin: 10px;
 }
 
-#section-catalogue #grille span {
+#section-catalogue .grille span {
+    color: rgb(0, 0, 253);
+    font-weight: bolder;
+    font-size: 22px;
+    margin: 16px;
+}
+
+/*===============================================propriete recentes ==================================*/
+
+#secend_card .intro_p {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#secend_card .grille {
+    display: grid;
+    height: auto;
+    width: 100%;
+    display: flex;
+    padding: 60px 60px 60px 60px;
+    /*grid-template-columns: repeat(auto-fill, 280px);*/
+    justify-content: space-evenly;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+#secend_card .grille_items {
+    margin-top: 2rem;
+    min-height: 340px;
+    height: auto;
+    width: 460px;
+    background-color: #eee;
+    border-radius: 0.5rem;
+    /*border-right: 1px solid black;*/
+    /*border-bottom: 0.5px solid black;*/
+    box-shadow: 2px 4px 2px 4px rgb(185, 181, 181);
+    overflow: hidden;
+    padding: 4px;
+}
+
+#secend_card .grille img {
+    width: 460px;
+    height: 320px;
+}
+
+#secend_card .grille h3 {
+    color: rgb(37, 118, 248);
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
+
+#secend_card.grille p {
+    color: rgb(6, 6, 6);
+    font-size: 18px;
+    margin: 10px;
+}
+
+#secend_card .grille span {
     color: rgb(0, 0, 253);
     font-weight: bolder;
     font-size: 22px;
@@ -668,36 +677,36 @@ footer {
 .presentation_bien {
     padding: 6px 12rem;
     position: relative;
-  }
+}
 
-  .presentation_bien .info_propriete input {
+.presentation_bien .info_propriete input {
     margin: 12px auto;
     width: 49rem;
     height: 40px;
     padding: 8px;
     margin: 14px 0 2rem 0;
-    font-size: 2.4rem; 
+    font-size: 2.4rem;
     border: none;
     border-bottom: 1px solid #000;
     display: block;
-  }
+}
 
-  .presentation_bien .info_propriete {
+.presentation_bien .info_propriete {
     position: absolute;
     top: 4rem;
     right: 6rem;
-  }
+}
 
-  .presentation_bien .description {
+.presentation_bien .description {
     margin-top: 2.6rem;
-  }
+}
 
-  .presentation_bien .description p {
+.presentation_bien .description p {
     font-size: 2.2rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
     text-align: justify;
-
-  }
+}
 /* ================ Section actualité et offre ======================*/
 
 .actualite {
@@ -987,3 +996,56 @@ input[type="submit"] {
         padding: 12px;
     }
 }
+
+/*
+
+#secend_card {
+    height: auto;
+    width: 100%;
+    padding: 8rem 0px 06rem 0px;
+    background-color: #f8f6f6;
+}
+
+.grille {
+    display: grid;
+    height: auto;
+    width: 100%;
+    display: flex;
+    padding: 60px 0px;$
+    justify-content: space-evenly;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.grille_items {
+    margin-top: 2rem;
+    min-height: 340px;
+    height: auto;
+    width: 420px;
+    background-color: #eee;
+    border-radius: 0.5rem;
+    box-shadow: 2px 4px 2px 4px rgb(185, 181, 181);
+    overflow: hidden;
+    padding: 4px;
+}
+
+.grille h3 {
+    color: rgb(37, 118, 248);
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.grille p {
+    color: rgb(6, 6, 6);
+    font-size: 18px;
+    margin: 10px;
+}
+
+.grille span {
+    color: rgb(0, 0, 253);
+    font-weight: bolder;
+    font-size: 22px;
+    margin: 16px;
+}*/
