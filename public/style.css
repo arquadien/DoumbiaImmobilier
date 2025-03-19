@@ -490,7 +490,7 @@ b {
 #secend_card {
     height: auto;
     width: 100%;
-    padding: 8rem 20px 06rem 20px;
+    padding: 8rem 0px 06rem 0px;
     background-color: #f8f6f6;
 }
 
@@ -628,7 +628,7 @@ footer {
     margin-top: 2rem;
     min-height: 340px;
     height: auto;
-    width: 430px;
+    width: 420px;
     background-color: #eee;
     border-radius: 0.5rem;
     /*border-right: 1px solid black;*/
