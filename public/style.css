@@ -451,6 +451,7 @@ span {
 .apropos-card h1 {
     color: #3704ded5;
     font-size: 2.4em;
+    font-family: 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -459,6 +460,7 @@ span {
     font-size: 1.4em;
     line-height: 1.5;
     padding: 2px;
+    text-align: justify;
 }
 
 .apropos-card button {
@@ -468,10 +470,16 @@ span {
     padding: 10px 20px;
     cursor: pointer;
     font-size: 1em;
+    transition: 2s;
 }
 
 .apropos-card button:hover {
-    background-color: #616161;
+    background-color: #564c4c;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.4em;
+    transition: 2s;
+    margin: 2px;
+    rotate: 360deg;
 }
 /*.section-container-spacer {
   margin-bottom: 10px;
@@ -610,10 +618,8 @@ footer {
 
 /*===============================================propriete recentes ==================================*/
 
-#secend_card .intro_p {
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 20px;
+#secend_card h4 {
+    font: 2.8em sans-serif;
 }
 
 #secend_card .grille {
@@ -635,11 +641,17 @@ footer {
     width: 460px;
     background-color: #eee;
     border-radius: 0.5rem;
-    /*border-right: 1px solid black;*/
-    /*border-bottom: 0.5px solid black;*/
     box-shadow: 2px 4px 2px 4px rgb(185, 181, 181);
     overflow: hidden;
     padding: 4px;
+    transition: 1.4s;
+}
+
+#secend_card .grille_items:hover {
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+    padding: 2px;
+    transition: 1.4s;
 }
 
 #secend_card .grille img {
@@ -650,18 +662,18 @@ footer {
 #secend_card .grille h3 {
     color: rgb(37, 118, 248);
     font-weight: bold;
-    font-size: 20px;
+    font-size: 2em;
     margin: 10px;
 }
 
-#secend_card.grille p {
+#secend_card .grille p {
     color: rgb(6, 6, 6);
     font-size: 18px;
     margin: 10px;
 }
 
 #secend_card .grille span {
-    color: rgb(0, 0, 253);
+    color: rgb(49, 49, 66);
     font-weight: bolder;
     font-size: 22px;
     margin: 16px;

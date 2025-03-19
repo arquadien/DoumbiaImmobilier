@@ -114,7 +114,7 @@
         <p>{{ Str::limit($propriete->description, 160, '...') }} </p>
         <span>{{$propriete->prix}} F</span>
       </div>
-      @endforeach
+      @endforeach 
     </div>
   </section>
   <!-- recommandations -->
