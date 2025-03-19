@@ -15,7 +15,7 @@ class AdminCotroller extends Controller
 
     public function login()
     {
-        return view('admin.Connexion');
+        return view('admin.connexion');
     }
 
     public function do_login(Request $request)
