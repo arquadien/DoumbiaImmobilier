@@ -18,7 +18,7 @@
 <body>
     <div class="signupSection">
     <div class="info">
-        <h2>Agence Mont Hevreste</h2>
+        <h2>DOUMBIA Immobilier</h2>
         <img src="assets/michael.png" style="height: 160px; border-radius: 50%; margin: 30px 0px" alt="">
         <p>The Future Is Here</p>
     </div>

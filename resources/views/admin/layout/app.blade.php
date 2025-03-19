@@ -11,8 +11,8 @@
       <div class="container">
         <nav>
           <ul>
-            <li><a href="#" class="logo">
-              <img src="./pic/logo.jpg">
+            <li><a href="#" class="logo" >
+              <img src="{{asset('assets/logo_immo-removebg-preview.png')}}" alt="logo" />
               <span class="nav-item">Admin</span>
             </a></li>
             <li><a href="{{asset(route('dashboard'))}}">
@@ -47,7 +47,7 @@
         </nav>   
         <section class="main">
           <div class="main-top">
-            <h1>Agence Hevreste</h1>
+            <h1>DOUMBIA IMMOBILIER</h1>
             <i class="fas fa-user-cog"></i>
           </div>
           @yield('content')
