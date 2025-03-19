@@ -499,7 +499,7 @@ b {
     height: auto;
     width: 100%;
     display: flex;
-    padding: 60px;
+    padding: 60px 0px;
     /*grid-template-columns: repeat(auto-fill, 280px);*/
     justify-content: space-evenly;
     gap: 1rem;
@@ -511,7 +511,7 @@ b {
     margin-top: 2rem;
     min-height: 340px;
     height: auto;
-    width: 450px;
+    width: 420px;
     background-color: #eee;
     border-radius: 0.5rem;
     /*border-right: 1px solid black;*/
@@ -519,11 +519,6 @@ b {
     box-shadow: 2px 4px 2px 4px rgb(185, 181, 181);
     overflow: hidden;
     padding: 4px;
-}
-
-#grille img {
-    width: 450px;
-    height: 320px;
 }
 
 #grille h3 {
