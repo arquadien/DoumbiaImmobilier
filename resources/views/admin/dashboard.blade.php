@@ -45,7 +45,7 @@
         <tr>
           <td>{{ $propriete->id }}</td>
           <td>{{ $propriete->titre }}</td>
-          <td>{{ $propriete->description }}</td>
+          <td>{{ Str::limit($propriete->description, 150, '...') }}</td>
           <td><button><p><a href="{{asset(route('detail',$propriete->id))}}" style="color:black; width:12px" >View</a></p></button></td>
           <td><button>Vendus</button></td>
         </tr>

@@ -628,7 +628,7 @@ footer {
     margin-top: 2rem;
     min-height: 340px;
     height: auto;
-    width: 450px;
+    width: 430px;
     background-color: #eee;
     border-radius: 0.5rem;
     /*border-right: 1px solid black;*/
@@ -639,8 +639,8 @@ footer {
 }
 
 #section-catalogue #grille img {
-    width: 450px;
-    height: 320px;
+    width: 430px;
+    height: 310px;
 }
 
 #section-catalogue #grille h3 {
